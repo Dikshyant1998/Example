@@ -1,0 +1,26 @@
+Spam detection software, running on the system "mint1.vu.edu.au",
+has identified this incoming email as possible spam.  The original
+message has been attached to this so you can view it or label
+similar future email.  If you have any questions, see
+@@CONTACT_ADDRESS@@ for details.
+
+Content preview:  /d2l/common/viewFile.d2lfile/ImmutableTemp/ZjA3ZTBkYzYtNThlNC00MDMzLTk5YTItYzEwYWNjYWE4OTc2O2VheG1wbGUuY3N2OzE3MzU3/eaxmple.csv?ou=2382528
+   tweet_id,author_id,inbound,created_at,text,response_tweet_id,in_response_to_tweet_id
+   119237,105834,True,Wed Oct 11 06:55:44 +0000 2017,@AppleSupport causing the
+   reply to be disregarded and the tapped [...] 
+
+Content analysis details:   (6.2 points, 5.0 required)
+
+ pts rule name              description
+---- ---------------------- --------------------------------------------------
+ 0.5 SUBJ_ALL_CAPS          Subject is all capitals
+ 0.9 MISSING_HEADERS        Missing To: header
+ 0.0 HTML_MESSAGE           BODY: HTML included in message
+ 2.4 REPLYTO_WITHOUT_TO_CC  No description available.
+ 2.0 SHORT_SHORTNER         Short body with little more than a link to a
+                            shortener
+ 0.4 KHOP_HELO_FCRDNS       Relay HELO differs from its IP's reverse DNS
+ 0.0 T_FILL_THIS_FORM_SHORT Fill in a short form with personal
+                            information
+
+
